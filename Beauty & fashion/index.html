@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css" />
+
+    <!-- LINKS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.1.3-dist/css/bootstrap.min.css"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid bg-white">
+        <a class="navbar-brand" href="#"><span class="z-brand">Z</span>olex</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#designs">Designs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn btn-sm" type="submit">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="user-icon"
+                viewBox="0 0 512 512"
+                width="30px"
+                height="25px"
+              >
+                <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"
+                />
+              </svg>
+            </button>
+            <button class="btn btn-sm" type="submit">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="user-icon"
+                viewBox="0 0 448 512"
+                width="30px"
+                height="25px"
+              >
+                <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"
+                />
+              </svg>
+            </button>
+
+            <button class="btn btn-sm" type="submit">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="cart"
+                viewBox="0 0 576 512"
+                width="30px"
+                height="25px"
+              >
+                <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM272 180H316V224C316 235 324.1 244 336 244C347 244 356 235 356 224V180H400C411 180 420 171 420 160C420 148.1 411 140 400 140H356V96C356 84.95 347 76 336 76C324.1 76 316 84.95 316 96V140H272C260.1 140 252 148.1 252 160C252 171 260.1 180 272 180zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div
+      class="bg-image hero d-flex flex-column justify-content-center align-items-center"
+      style="
+        background-image: url(./images/Hnet.com-image.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+      "
+    >
+      <h2 class="text-center"><span>Zolex</span> Collection</h2>
+      <br />
+
+      <a href="#" class="btn btn-outline-secondary">Shop Now</a>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div class="container-md-fluid bg-light bg-gradient" id="about">
+      <div class="row">
+        <div class="col-md-5 d-flex justify-content-center">
+          <img
+            src="./images/khaled-ghareeb--NyPn9up_7o-unsplash-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="col-md-7 d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2 class="heading" style="font-family: 'cinzel decoration'">
+            About Us
+          </h2>
+          <p class="text-center lh-lg">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consectetur voluptates est hic ad dolores nisi quisquam eius quas
+            id! Delectus voluptatibus similique placeat laborum dicta ut magnam
+            voluptates laboriosam quis numquam, iusto, quas fugit.
+            Exercitationem sunt quis temporibus consequatur officiis.
+          </p>
+        </div>
+      </div>
+    </div>
+<hr>
+    <div class="container main">
+      <div class="container-fluid main-box">
+        <div class="container-sm-fluid min-box">
+          <h3 class="heading-text text-wrap">#Spring Collection</h3>
+          <p class="inner-text text-nowrap">
+            <span style="font-size: 2rem; font-weight: 400">-50%</span> off
+          </p>
+          <a href="#" class="btn btn-sm btn-outline-secondary text-nowrap"
+            >Shop Now</a
+          >
+        </div>
+      </div>
+    </div>
+    <br />
+    <hr>
+   
+
+
+    <!-- CAROUSEL SECTION BEGINS -->
+    <div id="myCarousel" class="container carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg> -->
+          <img src="./images/engin-akyurt-h1BylIldtD0-unsplash.jpg" class="bd-placeholder-img" width="100%" height="100%"  alt="">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Spring Collection</h1>
+              <p>Let's Style You</p>
+              <p><a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg> -->
+          <img src="./images/drey22-zvyagintsev-3jqAnJFoVgc-unsplash (2).jpg" class="bd-placeholder-img" width="100%" height="100%"  alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Winter Collection</h1>
+              <p>You're Beautiful</p>
+              <p><a class="btn btn-sm btn-outline-secondary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg> -->
+          <img src="./images/andrey22-zvyagintsev-3jqAnJFoVgc-unsplash (1).jpg" class="bd-placeholder-img" width="100%" height="100%"  alt="">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Summer Collection</h1>
+              <p>We're Here For You</p>
+              <p><a class="btn btn-sm btn-outline-secondary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+<!-- CAROUSEL SECTION ENDS-->
+
+
+    <hr />
+
+
+<!-- BLOG POST -->
+<div class="container" id="blog">
+  <h2 class="text-center mb-3 fs-10">#Blog Posts</h2>
+  <div class="row">
+    <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+      <div class="card">
+        <img class="card-img" src="./clothings/djamal-akhmad-fahmi-2y5hL5L7btI-unsplash.jpg" alt="">
+        <div class="card-img-overlay">
+          <a href="#" class="btn btn-light btn-sm">Classic </a>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Business Season</h4>
+          <small class="text-muted cat">
+            <i class="far fa-clock text-info"></i> 30 minutes
+            <i class="fas fa-users text-info"></i> 4 users
+          </small>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          <a href="#" class="btn btn-outline-danger ">Read More</a>
+        </div>
+        <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
+          <div class="views">Mar 20, 12:45PM
+          </div>
+          <div class="stats">
+           	<i class="far fa-eye"></i> 1347
+            <i class="far fa-comment"></i> 12
+          </div>
+           
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+      <div class="card">
+        <img class="card-img" src="./clothings/jordan-nix-CkCUvwMXAac-unsplash.jpg" alt="Bologna">
+        <div class="card-img-overlay">
+          <a href="#" class="btn btn-light btn-sm">Chic</a>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Beauty And Fun</h4>
+          <small class="text-muted cat">
+            <i class="far fa-clock text-info"></i> 30 minutes
+            <i class="fas fa-users text-info"></i> 6 Users
+          </small>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <a href="#" class="btn btn-outline-danger">Read More</a>
+        </div>
+        <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
+          <div class="views">Oct 20, 12:45PM
+          </div>
+          <div class="stats">
+           	<i class="far fa-eye"></i> 1347
+            <i class="far fa-comment"></i> 12
+          </div>
+           
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+      <div class="card">
+        <img class="card-img" src="./clothings/benjamin-rascoe-ItqFmSxKnIg-unsplash.jpg" alt="Bologna">
+        <div class="card-img-overlay">
+          <a href="#" class="btn btn-light btn-sm">Casual</a>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Work And Play</h4>
+          <small class="text-muted cat">
+            <i class="far fa-clock text-info"></i> 30 minutes
+            <i class="fas fa-users text-info"></i> 7 Users
+          </small>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#" class="btn btn-outline-danger">Read More</a>
+        </div>
+        <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
+          <div class="views">Oct 20, 12:45PM
+          </div>
+          <div class="stats">
+           	<i class="far fa-eye"></i> 1347
+            <i class="far fa-comment"></i> 12
+          </div>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- BLOG POST ENDS -->
+<hr>
+  
+    <!-- FOOTER SECTION BEGINS -->
+    <footer class="container-fluid bg-grey py-5">
+      <div class="container">
+        <h2 class="text-center mb-3 fs-10">Contact Us</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="logo-part">
+                  <h2 class="navbar-brand" href="#">
+                    <span class="z-brand">Z</span>olex
+                  </h2>
+                  <p>7637 Laurel Dr. King Of Prussia, PA 19406</p>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Laborum, vitae.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 px-4">
+                <h6>About Company</h6>
+                <p>
+                  We strongly believe that your first statement is your style
+                </p>
+                <a href="#" class="btn-footer btn-outline-danger"> More Info </a><br />
+                <a href="#" class="btn-footer btn-outline-danger"> Contact Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6 px-4">
+                <h6>Help us</h6>
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul>
+                      <li><a href="#"> Home</a></li>
+                      <li><a href="#about"> About</a></li>
+                      <li><a href="#designs"> Designs</a></li>
+                      <li><a href="#"> Team</a></li>
+
+                      <li><a href="#"> Contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6 px-4">
+                    <ul>
+                      <li><a href="#"> Terms</a></li>
+                      <li><a href="#"> Policy</a></li>
+                      <li><a href="#"> Refunds</a></li>
+                      <li><a href="#"> Paypal</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h6>Newsletter</h6>
+                <div class="social">
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fa fa-pinterest" aria-hidden="true"></i
+                  ></a>
+                </div>
+                <form class="form-footer my-3">
+                  <input
+                    type="text"
+                    placeholder="search here...."
+                    name="search"
+                  />
+                  <input type="button" value="Go" />
+                </form>
+                <p>Subscribe To Our Newsletters</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FOOTER SECTION ENDS -->
+
+    <script src="./bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </body>
+</html>
